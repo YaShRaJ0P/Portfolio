@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- Box Icons --> 
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <!-- Normal CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Portfolio</h1>
+        <nav class="navbar">
+            <ul class="items">
+              <a href="#home" class="items-li-link">  <li class="items-li">Home</li></a>
+                <a href="#skills" class="items-li-link"><li class="items-li">Skills</li></a>
+              <a href="#projects" class="items-li-link"><li class="items-li">Projects</li></a>
+             <a href="#contact" class="items-li-link"><li class="items-li">Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+   <section class="home" id="home">
+    <div class="home-container">
+        <h3 class="intro"><span class="hello1">Hello</span> It's me</h3>
+        <h1 class="yash">YASH RAJ</h1>
+        <h3 class="hello">I am a <span class="change">Front-End Developer.</span></h3>
+        <p class="about"> I am very curious and explorative individual. I enjoy trying new things and taking on new challenges, both personally and professionally.</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/yash-raj05/" class="social-media-logo"><box-icon name='linkedin' type='logo' ></box-icon></a>
+            <a href="https://github.com/YaShRaJ0P" class="social-media-logo"><box-icon name='github' type='logo' ></box-icon></a>
+            <a href="https://discord.gg/gWDeMX5g" class="social-media-logo"><box-icon type='logo' name='discord-alt'></box-icon></a>
+        </div>
+    </div>
+    <div class="image-div">
+        <img loading="eager" src="yash.png" class="image" ></iframe>
+    </div>
+   </section>
+
+   <section class="non-home" id="skills">
+    <div class="heading">SKILLS</div>
+    <div class="container">
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="c-language.png" alt=""/></div>
+            <div class="title">
+                C
+            </div>
+            </div>
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" src="cpp.png" alt="" class="skillimg-icon"/></box-icon></div>
+            <div class="title">
+                C++
+            </div>
+        </div>
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="puzzle (1).png" alt=""/></div>
+            <div class="title">
+                Problem Solving
+            </div>
+               </div>
+   
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="html5-logo-240.png" alt=""/></div>
+            <div class="title">
+                HTML
+            </div>
+              </div>
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" src="css3-logo-240.png" alt="" class="skillimg-icon"/></div>
+            <div class="title">
+                CSS
+            </div>
+           </div>
+        <div class="row">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="javascript-logo-240.png" alt=""/></div>
+            <div class="title">
+                Javascript
+            </div>
+        </div> 
+   </section>
+   <section class="non-home" id="projects">
+    <div class="heading">PROJECTS</div>
+    <div class="container-project">
+        <div class="row" id="alpha">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="alphae.png" alt=""></div>
+            <div class="project-title">
+                Alpha Enterprises
+            </div>
+            <div class="project-text">My first project was the creation of Alpha Enterprises, a website where users can purchase notebooks, drawing books and graphs. Although it is nor functional neither responsive, but I learnt many things. This project marked the beginning of my journey to apply and expand upon my web development skills.</div>
+            <a href="https://yashraj0p.github.io/alpha/" class="project-link"><button class="project-button">View</button></a>
+            </div>
+        <div class="row" id="tic">
+            <div class="skillimg"><img loading ="lazy" class="skillimg-icon" src="tic-tac-toe.png" alt=""/></div>
+            <div class="project-title">
+               TIC-TAC-TOE
+            </div>
+            <div class="project-text">Utilizing my C++ programming skills, I developed a game of Tic-Tac-Toe that operates through the terminal. Through this project, I was able to enhance my logical reasoning abilities while also creating a more user-friendly experience.</div>
+            <a href="code.html" class="project-link"><button class="project-button">View</button></a>
+               </div>
+         <div class="row" id="ethereal">
+                <div class="skillimg"><img loading ="lazy" src="ethereal.png" alt="" class="skillimg-icon"/></div>
+                <div class="project-title">
+                    ETHEREAL
+                </div>
+                <div class="project-text">As part of the GDSC Solution Challenge'23, I developed a project called 'ETHEREAL.' Handling such a significant project enabled me to enhance not only my front-end skills but also my leadership abilities. The website provides individuals with information on sustainable living practices and includes features such as login/signup form, discussion forum for communication, and maps to locate sustainable stores.</div>
+               <a href="https://yashraj0p.github.io/Ethereal/" class="project-link"> <button class="project-button">View</button></a>
+            </div>
+               </div>
+   </section>
+   <section class="non-home">
+    <div class="heading" id="contact">CONTACT</div>
+    <form class="form-container">
+        <div class="container1">
+            <div class="project-title" style="text-align: center;">MESSAGE</div>
+            <div class="row1 input-container">
+                        <div class="styled-input">
+                            <input type="text" required />
+                            <label>Name</label> 
+                        </div>
+                        <div class="styled-input" style="float: right;">
+                            <input type="text" required />
+                            <label>Email</label> 
+                    </div>
+                        <div class="styled-input wide">
+                            <textarea required></textarea>
+                            <label>Message</label>
+                    </div>
+                        <div class="btn-lrg submit-btn">Send Message</div>
+            </div>
+        </div>
+        </form>
+        <!-- <div class="form-container">
+            <div class="project-title" style="text-align: center;">MY DETAILS</div>
+            <div class="detail">
+            <div class="my-contact"><div><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: #00eeff;"><path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path></svg></div><div class="info"><a href="tel:6205795931" class="contact-link"> </a></div></div>
+            <div class="my-contact"><div><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: #00eeff;"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg></div><div class="info" class="contact-link"><a href="mailto: helloiamyashraj0405@gmail.com?Subject=Some%20subject" class="contact-link"></a></div></div></div>
+            </div> -->
+   </section>
+</body>
+</html>
