@@ -349,6 +349,7 @@ background-attachment: fixed;
     margin: 20px;
     font-size: 15px;
 }
+
 @media(max-width : 416px){
     .logo{font-size: 1.4rem !important;}
     .items-li{font-size: 1.4rem !important;}
@@ -585,8 +586,9 @@ color: #0ef;
 }
 .detail{
     display: flex;
-    width: 100%;
-    
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 0 auto;
 }
 .my-contact{
     width: auto;
@@ -612,9 +614,17 @@ color: #0ef;
         width: 20px !important;
     }
 }
+
 .contact-link:hover{
     color: red !important;
 }
 svg:hover{
     animation: shake 0.25s infinite;
+}
+@media(max-width:450px){
+    .header{
+        display: none;
+    }
+    .home {
+        margin: 1rem 6% 2rem;}
 }
